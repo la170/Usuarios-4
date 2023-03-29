@@ -7,25 +7,59 @@
 html,body{
     width: 100%;
     height: 100%;
-    background-color: #9b59b6;;
+    background-color: #fde784;;
     display: flex;
     align-items: center;
     justify-content: center ;
 }
 
 main{
-    width: 40%;
+    width: 25rem;
     height: 95%;
     background-color: white;
     border-radius: 8px;
     font-family: sans-serif;
-    padding: 40px 30px;
-    overflow: hidden;
+    font-size: 10px;
+    padding: 0 0px 0 0px;
+    display: grid;
+    place-items: center;
 }
 img{
     border-radius: 150px;
     width: 20%;
 }
-ul{
+li{
+    display: flex;
     list-style: none ;
+    gap: 30px;
+    padding: 20px;
+}
+li>ul{
+    padding-top: 30px;
+}
+h2{
+    color: #868686;
+}
+.vangogh{
+    background-image: url(./vangogh.jpg);
+}
+.p1{
+    background-image: url(./p1.png);
+}
+.p2{
+    background-image: url(./p2.jpeg);
+}
+.p3{
+    background-image: url(./p3.jpg);
+}
+.general{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 40px 30px;
+    background-size: cover;
+    padding-right: 10px;
+}
+hr{
+    background-color: #aaa8a8;
 }
